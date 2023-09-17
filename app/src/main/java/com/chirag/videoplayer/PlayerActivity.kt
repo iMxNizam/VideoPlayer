@@ -1,4 +1,4 @@
-package com.Chirag.VideoPlayer
+package com.chirag.videoplayer
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -37,10 +37,10 @@ import com.google.android.exoplayer2.ui.DefaultTimeBar
 import com.google.android.exoplayer2.ui.TimeBar
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
-import com.Chirag.VideoPlayer.databinding.ActivityPlayerBinding
+import com.chirag.videoplayer.databinding.ActivityPlayerBinding
 
-import com.Chirag.VideoPlayer.databinding.MoreFeaturesBinding
-import com.Chirag.VideoPlayer.databinding.SpeedDialogBinding
+import com.chirag.videoplayer.databinding.MoreFeaturesBinding
+import com.chirag.videoplayer.databinding.SpeedDialogBinding
 import java.io.File
 import java.text.DecimalFormat
 import java.util.*

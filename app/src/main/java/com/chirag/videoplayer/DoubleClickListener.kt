@@ -1,4 +1,4 @@
-package com.Chirag.VideoPlayer
+package com.chirag.videoplayer
 
 import android.view.View
 

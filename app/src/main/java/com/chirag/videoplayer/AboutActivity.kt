@@ -1,10 +1,9 @@
-package com.Chirag.VideoPlayer
+package com.chirag.videoplayer
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.Chirag.VideoPlayer.MainActivity
-import com.Chirag.VideoPlayer.databinding.ActivityAboutBinding
+import com.chirag.videoplayer.databinding.ActivityAboutBinding
 
 class AboutActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")

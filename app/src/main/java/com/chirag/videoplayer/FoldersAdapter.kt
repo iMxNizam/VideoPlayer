@@ -1,4 +1,4 @@
-package com.Chirag.VideoPlayer
+package com.chirag.videoplayer
 
 import android.content.Context
 import android.content.Intent
@@ -6,8 +6,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.Chirag.VideoPlayer.Folder
-import com.Chirag.VideoPlayer.databinding.FoldersViewBinding
+import com.chirag.videoplayer.databinding.FoldersViewBinding
 
 class FoldersAdapter(private val context: Context, private var foldersList: ArrayList<Folder>) : RecyclerView.Adapter<FoldersAdapter.MyHolder>() {
     class MyHolder(binding: FoldersViewBinding) : RecyclerView.ViewHolder(binding.root) {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.Chirag.VideoPlayer">
+    package="com.chirag.videoplayer">
 
 <!--    for online playing features-->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -21,12 +21,12 @@
         android:theme="@style/Theme.VideoPlayer"
         tools:ignore="AllowBackup">
         <activity
-            android:name="com.Chirag.VideoPlayer.AboutActivity"
+            android:name="com.chirag.videoplayer.AboutActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity"/>
         <activity
-            android:name="com.Chirag.VideoPlayer.PlayerActivity"
+            android:name="com.chirag.videoplayer.PlayerActivity"
             android:configChanges="uiMode|orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden"
             android:launchMode="singleTask"
             android:resizeableActivity="true"
@@ -42,12 +42,13 @@
 
         </activity>
         <activity
-            android:name="com.Chirag.VideoPlayer.FoldersActivity"
+            android:name="com.chirag.videoplayer.FoldersActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
         <activity
-            android:name="com.Chirag.VideoPlayer.MainActivity"
+            android:name="com.chirag.videoplayer.MainActivity"
             android:exported="true"
+            android:theme="@style/Theme.App.Starting"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity">
             <intent-filter>

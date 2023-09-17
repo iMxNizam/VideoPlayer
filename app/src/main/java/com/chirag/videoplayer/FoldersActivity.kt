@@ -1,4 +1,4 @@
-package com.Chirag.VideoPlayer
+package com.chirag.videoplayer
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -8,8 +8,7 @@ import android.provider.MediaStore
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.Chirag.VideoPlayer.Video
-import com.Chirag.VideoPlayer.databinding.ActivityFoldersBinding
+import com.chirag.videoplayer.databinding.ActivityFoldersBinding
 import java.io.File
 
 class FoldersActivity : AppCompatActivity() {

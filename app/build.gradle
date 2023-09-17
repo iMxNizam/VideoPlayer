@@ -69,4 +69,7 @@ dependencies {
     implementation "androidx.browser:browser:1.4.0"
     implementation 'androidx.test:monitor:1.6.1'
     implementation 'androidx.test.ext:junit-ktx:1.1.5'
+
+    //for splash screen
+    implementation 'androidx.core:core-splashscreen:1.0.1'
 }

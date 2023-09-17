@@ -1,4 +1,4 @@
-package com.Chirag.VideoPlayer
+package com.chirag.videoplayer
 
 import android.Manifest.permission.READ_EXTERNAL_STORAGE
 import android.Manifest.permission.WRITE_EXTERNAL_STORAGE
@@ -16,15 +16,12 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.fragment.app.Fragment
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
-import com.Chirag.VideoPlayer.Folder
-import com.Chirag.VideoPlayer.R
-import com.Chirag.VideoPlayer.Video
-import com.Chirag.VideoPlayer.databinding.ActivityMainBinding
-import com.Chirag.VideoPlayer.databinding.ThemeViewBinding
-import com.Chirag.VideoPlayer.getAllVideos
+import com.chirag.videoplayer.databinding.ActivityMainBinding
+import com.chirag.videoplayer.databinding.ThemeViewBinding
 import kotlin.system.exitProcess
 
 @Suppress("DEPRECATION")
@@ -59,6 +56,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen()
         super.onCreate(savedInstanceState)
 
         val editor = getSharedPreferences("Themes", MODE_PRIVATE)

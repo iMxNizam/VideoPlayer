@@ -1,4 +1,4 @@
-package com.Chirag.VideoPlayer
+package com.chirag.videoplayer
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -23,10 +23,10 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.google.android.material.color.MaterialColors
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.Chirag.VideoPlayer.databinding.DetailsViewBinding
-import com.Chirag.VideoPlayer.databinding.RenameFieldBinding
-import com.Chirag.VideoPlayer.databinding.VideoMoreFeaturesBinding
-import com.Chirag.VideoPlayer.databinding.VideoViewBinding
+import com.chirag.videoplayer.databinding.DetailsViewBinding
+import com.chirag.videoplayer.databinding.RenameFieldBinding
+import com.chirag.videoplayer.databinding.VideoMoreFeaturesBinding
+import com.chirag.videoplayer.databinding.VideoViewBinding
 import java.io.File
 
 class VideoAdapter(private val context: Context, private var videoList: ArrayList<Video>, private var isFolder: Boolean = false)

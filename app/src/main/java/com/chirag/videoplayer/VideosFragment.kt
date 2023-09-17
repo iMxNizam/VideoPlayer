@@ -1,4 +1,4 @@
-package com.Chirag.VideoPlayer
+package com.chirag.videoplayer
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,7 +7,7 @@ import android.view.*
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.Chirag.VideoPlayer.databinding.FragmentVideosBinding
+import com.chirag.videoplayer.databinding.FragmentVideosBinding
 
 
 class VideosFragment : Fragment() {

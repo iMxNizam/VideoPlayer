@@ -1,4 +1,4 @@
-package com.Chirag.VideoPlayer
+package com.chirag.videoplayer
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.Chirag.VideoPlayer.databinding.FragmentFoldersBinding
+import com.chirag.videoplayer.databinding.FragmentFoldersBinding
 
 
 class FoldersFragment : Fragment() {
